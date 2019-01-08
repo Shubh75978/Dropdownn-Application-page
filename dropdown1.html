@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+
+	background:url("pic4.jpg") center;
+	height: 100vh;
+	background-size: cover;
+}
+.menudropdown1{
+width: 80%;
+height: 100px;
+margin: 0px auto;
+}
+.menudropdown1 ul{
+	padding: 0px;
+
+}
+.menudropdown1 ul li{
+	float: left;
+	background-color: black;
+	color: white;
+    font-variant: small-caps;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	text-align: center;
+	opacity: 0.7;
+	list-style: none;
+}
+
+.menudropdown1 ul li ul{
+	display: none;
+
+}
+.menudropdown1 ul li:hover>ul{
+	display: block;
+}
+
+.menudropdown1 ul li:hover{
+	background-color: blue;
+	opacity: 0.9;
+}
+
+.menudropdown1 ul li ul li{
+	position: relative;
+}
+
+.menudropdown1 ul li ul li ul{
+	position: absolute;
+	left: 200px;
+	top: 10px;
+}
+</style>
+</head>
+</body>
+<div class="menudropdown1">
+	<ul>
+		<li>Karnatka
+			<ul>
+				<li>Bangalore
+					<ul>
+						<li>Marathali</li>
+						<li>BTM</li>
+						<li>JP Nagar</li>
+						<li>Kormangla</li>
+						<li>Electronic city</li>
+					</ul>
+				</li>
+
+				<li>Manipal</li>
+				<li>Hubli</li>
+				<li>Manglore</li>
+				<li>Gulbarga</li>
+				<li>Davangere</li>
+			</ul>
+		</li>	
+
+<li>Telangana
+	<ul>
+		<li>Hydrabad</li>
+		<li>Mahbubnagar</li>
+		<li>Adilabad</li>
+		<li>Warangal</li>
+		<li>Nalgonda
+			<ul>
+				<li>Suryapat</li>
+			</ul>
+		</li>
+	</ul>
+</li>
+
+
+<li>Maharasta
+ <ul>
+ 	<li>Mumbai</li>
+ 	<li>Pune</li>
+ 	<li>Nagpur</li>
+ 	<li>Nashic</li>
+ 	<li>Panvel</li>
+ 	<li>kolhapur</li>
+ </ul>	
+</li>
+
+
+<li>Chhattisgarh
+	<ul>
+		<li>Raipur</li>
+		<li>Atalnagr</li>
+		<li>Bhilai</li>
+		<li>Bilaspur</li>
+		<li>Rajnandgaon</li>
+		<li>Ambikapur</li>
+	</ul>
+</li>
+
+
+<li>Jharkhand
+	<ul>
+		<li>Ranchi</li>
+		<li>Daltanganj</li>
+		<li>Latehar</li>
+		<li>Garhwa</li>
+		<li>Dhanbad</li>
+		<li>Bokaro</li>
+	</ul>
+</li>
+   
+</div>   
+
+<link rel="stylesheet" type="text/css" href="www.w3schools.com">
+
+	<title>Online Job Application Form</title>
+    <style>
+	#my{
+		box-shadow: 0px 8px 40px 0 rgba(0, 0, 0, 2);
+		max-width:50%;
+		margin: auto;
+		text-align: center;
+        
+
+	}
+	body{
+
+		font-family: "ALGERIAN";
+		margin: 0;
+    }
+    h2{
+    	background-color: orange;
+    	text-align: left;
+    	padding: 10px;
+    	color: white;
+    }
+    td{
+    	padding:10px;
+    }
+
+    input{
+    	height:20px;
+    	
+    }
+
+    input: focus, textarea:focus{
+    	
+    	border: 5px solid green;
+    }
+
+    textarea{
+    	border-radius: 10px;
+    }
+
+    .button{
+    	background-color: forestgreen;
+    	color: white;
+    	font-size: 18px;
+    	padding: 0px 25px;
+    	margin-bottom: 30px;
+
+    }
+
+    .button:hover{
+    	cursor: pointer;
+    	box-shadow: 5px 5px 5px blue;
+    }
+</style>
+</head>
+<body>
+
+	
+	
+		<div id="my">
+		<form>		
+		        <h2>Personal Information</h2>				
+			    <table width="100%">
+				
+				<tr>
+					<td width="10%">Full Name</td>
+					<td width="80%">
+						<input type="text">
+					</td>
+				</tr>
+
+				<tr>
+					<td>Father's Name</td>
+					<td>
+						<input type="text" >
+					</td>
+					<tr>
+
+					<td>Mother's Name</td>
+					<td>
+						<input type="text" >
+					</td>
+				</tr>
+
+				<tr>
+				
+				<td>Current Address</td>
+					<td>
+						<textarea rows="5" cols="28"></textarea>
+					</td>
+					<tr>
+					<td>Permanent Address</td>
+					<td>
+						<textarea rows="5" cols="28"></textarea>
+					</td>
+
+				</tr>
+				
+				<tr>
+						<td>Mobile Number</td>
+						<td>
+							<input type="text" size="25">
+						</td>
+					</tr>
+					<tr>
+						<td>Date of Birth</td>
+						<td><input type="Date" size="25">
+						</td>
+						</tr>
+
+					<tr>
+						<td>Select Gender</td>
+						<td>
+							<input type="radio" name="gender" value="male">Male
+						</td>
+					
+						<td>
+							<input type="radio" name="gender" value="female">Female
+						</td>
+					
+						<td>
+							<input type="radio" name="gender" value="other">Other
+						</td>
+					</tr>
+
+
+					<tr>
+						<td>Highest Qualification</td>
+						<td>
+							<input type="text" size="25">
+						</td>
+						<tr>
+						<td>Year of Passing</td>
+						<td>
+							<input type="text" size="25">
+						</td>
+					</tr>
+
+					<tr>
+						<td>Languages Known</td>
+						<td>
+							<input type="radio" name="telugu">Telugu
+						</td>
+								
+						<td>
+							<input type="radio" name="English">English
+						</td>
+					
+						<td>
+							<input type="radio" name="Hindi">Hindi
+						</td>
+
+					</tr>
+
+
+					<td></td>
+				
+
+					<tr>
+						<td>Nationality</td>
+						<td>
+							<select>
+								<option>Indian</option>
+								<option>American</option>
+								<option>others</option>
+							</select>
+						</td>
+					</tr>
+
+					<tr>
+						<td>Aadhar Card Number</td>
+						<td>
+							<input type="text" size="30">
+						</td>
+						</tr>	
+						<tr>
+
+						<td>Pan Card number</td>	    	
+						<td>
+							<input type="text" size="30">
+						</td>
+					</tr>
+
+					<tr>
+						<td></td>
+
+							<area shape="centercoords="" href="5">
+						
+					<td>
+							<input type="Submit" value="Submit" class="button">
+						</td>
+						<td>
+							<input type="Reset" value="Reset" class="button">
+						</td>
+					</tr>
+
+				</tbody></table>
+
+			</div>
+
+</body>
+</html>
